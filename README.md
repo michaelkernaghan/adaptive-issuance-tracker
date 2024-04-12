@@ -18,30 +18,33 @@ This repository contains the `adaptive_issuance.sh` script, designed to monitor 
 Clone this repository to your local machine using:
 ```sh
 git clone <repository-url>
-Usage
+```
+## Usage
 Navigate to the script directory and run the script with:
-
-sh
-Copy code
+```
 ./adaptive_issuance.sh
-Configuration
+```
+## Configuration
 The script uses predefined Tezos addresses and a baker address which can be modified as needed:
 
-Staker Addresses: Modify the staker_addresses array with the desired Tezos addresses.
-Baker Address: Set the baker_address variable to the baker's Tezos address.
-Dependencies
-Ensure you have jq installed:
+- Staker Addresses: Modify the staker_addresses array with the desired Tezos addresses.
+- Baker Address: Set the baker_address variable to the baker's Tezos address.
 
-sh
-Copy code
+## Dependencies
+Ensure you have jq installed:
+```
 sudo apt-get install jq
-Contributing
+```
+
+## Contributing
 Contributions are welcome. Please fork the repository and submit pull requests with your changes.
 
-License
+## License
 Distributed under the MIT License. See LICENSE file for more information.
 
-Author
+## Author
 Michael Kernaghan
-Acknowledgements
+
+## Acknowledgements
 Tezos community for continuous support and guidance.
+Grimoire LLM
